@@ -8,7 +8,7 @@ if (drinkMarkImages.length > 1) {
     activeIndex = (activeIndex + 1) % drinkMarkImages.length;
     drinkMarkImages[activeIndex].classList.add("is-active");
 
-    window.setTimeout(showNextImage, 3000);
+    window.setTimeout(showNextImage, 2500);
   };
 
   window.setTimeout(showNextImage, 2500);
