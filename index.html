@@ -18,7 +18,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="stylesheet" href="/assets/styles.css" />
-    <script src="/assets/container-cycle.js" defer></script>
   </head>
   <body>
     <div class="site-shell">
@@ -34,113 +33,87 @@
       <main>
         <section class="hero">
           <p class="eyebrow">No-judgment drink tracking for iPhone</p>
-          <div class="hero-title-row">
-            <div class="hero-drink-mark">
-              <img
-                class="is-active"
-                src="/assets/containers/beer-pint-glass.png"
-                alt="Beer pint glass"
-              />
-              <img src="/assets/containers/wine.png" alt="Wine glass" />
-              <img src="/assets/containers/shot-glass.png" alt="Shot glass" />
-              <img src="/assets/containers/coupe-glass.png" alt="Coupe glass" />
+          <div class="hero-layout">
+            <div class="hero-copy">
+              <h1>Track what you actually drank.</h1>
+              <p class="lede">
+                ClearPour tracks alcohol by size and strength, not just drink count,
+                so your log reflects the beer, wine, cocktail, or pour you actually had.
+              </p>
+              <p class="lede">
+                Your data stays privately stored in your iCloud account and syncs across
+                your Apple devices.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#">App Store</a>
+                <a class="button button-secondary" href="/support/">Questions?</a>
+                <a class="text-link" href="/privacy/">Privacy</a>
+              </div>
             </div>
-            <h1>Track what you actually drank.</h1>
-          </div>
-          <p class="lede">
-            ClearPour tracks alcohol by size and strength, not just drink count,
-            so your log reflects the beer, wine, cocktail, or pour you actually had.
-          </p>
-          <p class="lede">
-            Your data stays privately stored in your iCloud account and syncs across
-            your Apple devices.
-          </p>
-          <div class="hero-actions">
-            <a class="button" href="#">App Store</a>
-            <a class="button button-secondary" href="/support/">Questions?</a>
-            <a class="text-link" href="/privacy/">Privacy</a>
+            <figure class="hero-phone">
+              <img
+                src="/assets/screenshots/01-track-drinks.png"
+                alt="ClearPour drink list on iPhone"
+              />
+            </figure>
           </div>
         </section>
 
-        <section class="screenshot-section">
-          <div class="section-heading">
-            <p class="eyebrow">Screenshots</p>
-            <h2>A quick look at ClearPour.</h2>
+        <section class="proof-strip">
+          <p>Counts alcohol, not just drinks</p>
+          <p>Private iCloud sync</p>
+          <p>Made for awareness, not shame</p>
+        </section>
+
+        <section class="story-block story-block-history">
+          <div class="story-copy">
+            <p class="eyebrow">Clearer Totals</p>
+            <h2>See each day, then the bigger pattern.</h2>
             <p>
-              Fast logging, clearer totals, and a drink history that feels easy to keep.
+              Review a single night in detail or zoom out to the week. ClearPour makes it
+              easy to see what actually happened without turning your drinking into homework.
             </p>
           </div>
-
-          <div class="screenshot-rail" aria-label="App screenshot placeholders">
-            <figure class="phone-shot phone-shot-primary">
-              <div class="screen-placeholder">
-                <span class="placeholder-label">iPhone Screenshot 1</span>
-                <span class="placeholder-note">Main drink list with 5 realistic saved drinks</span>
-              </div>
-              <figcaption>Lead with fast logging from a personal drink list.</figcaption>
+          <div class="story-visuals story-visuals-history">
+            <figure class="story-phone story-phone-main">
+              <img
+                src="/assets/screenshots/03-history-weekly.png"
+                alt="ClearPour weekly history on iPhone"
+              />
             </figure>
-
-            <figure class="phone-shot">
-              <div class="screen-placeholder">
-                <span class="placeholder-label">iPhone Screenshot 2</span>
-                <span class="placeholder-note">Today or history view showing alcohol totals</span>
-              </div>
-              <figcaption>Then prove it tracks alcohol, not just raw drink count.</figcaption>
-            </figure>
-
-            <figure class="phone-shot">
-              <div class="screen-placeholder">
-                <span class="placeholder-label">iPhone Screenshot 3</span>
-                <span class="placeholder-note">Settings, weekly goals, or unlock screen</span>
-              </div>
-              <figcaption>Finish with the upgrade story: more control, not a subscription.</figcaption>
+            <figure class="story-phone story-phone-detail">
+              <img
+                src="/assets/screenshots/02-history-detail.png"
+                alt="ClearPour daily history detail on iPhone"
+              />
             </figure>
           </div>
         </section>
 
-        <section class="highlight-panel">
-          <p class="eyebrow">Why people will care</p>
-          <div class="highlight-grid">
-            <div>
-              <h2>Counts alcohol, not just drinks.</h2>
-              <p>
-                A lager, a martini, and a neat pour should not all count the same.
-                ClearPour tracks size and alcohol percentage so the totals match the actual drink.
-              </p>
-            </div>
-            <div>
-              <h2>Made for awareness, not shame.</h2>
-              <p>
-                No lectures, no performative wellness, no quitting program. Just a cleaner
-                way to keep tabs on your own drinking.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section class="copy-section">
-          <div class="section-heading">
-            <p class="eyebrow">Free Version</p>
-            <h2>Useful before you pay.</h2>
-          </div>
-          <div class="feature-columns">
+        <section class="story-block story-block-add">
+          <figure class="story-phone">
+            <img
+              src="/assets/screenshots/04-add-drink.png"
+              alt="ClearPour add custom drink screen on iPhone"
+            />
+          </figure>
+          <div class="story-copy">
+            <p class="eyebrow">Your Actual Drinks</p>
+            <h2>Save real pours, not generic guesses.</h2>
+            <p>
+              Add your usual beer, cocktail, wine, or neat pour with the size and alcohol
+              percentage that match real life. Once it is saved, logging it takes a second.
+            </p>
             <ul class="plain-list">
-              <li>Save up to 5 beers, wines, cocktails, or pours</li>
-              <li>Log from your saved drink list in seconds</li>
+              <li>Save up to 5 drinks for free</li>
               <li>Track alcohol by size and strength</li>
-              <li>See today’s progress at a glance</li>
-            </ul>
-            <ul class="plain-list">
-              <li>Review history by day or by week</li>
-              <li>Set a daily maximum if you want one</li>
-              <li>Edit mistakes and keep your log accurate</li>
-              <li>Sync privately across your Apple devices with iCloud</li>
+              <li>Edit mistakes and keep your log clean</li>
             </ul>
           </div>
         </section>
 
-        <section class="pricing-row">
-          <div>
+        <section class="story-block story-block-upgrade">
+          <div class="story-copy">
             <p class="eyebrow">Full Version</p>
             <h2>Unlock more flexibility, once.</h2>
             <p>
@@ -151,10 +124,6 @@
               The one-time unlock adds unlimited saved drinks, weekly goals,
               custom day and week boundaries, and alternate app icons. No subscription.
             </p>
-          </div>
-          <aside class="callout">
-            <p class="eyebrow">What the upgrade is really for</p>
-            <p>More drinks, more flexibility, and a tracker that matches your actual routine.</p>
             <ul class="plain-list">
               <li>Unlimited saved drinks</li>
               <li>Daily or weekly targets</li>
@@ -162,7 +131,13 @@
               <li>Choose what day your week starts on</li>
               <li>Custom app icons</li>
             </ul>
-          </aside>
+          </div>
+          <figure class="story-phone">
+            <img
+              src="/assets/screenshots/05-daily-target.png"
+              alt="ClearPour daily target settings on iPhone"
+            />
+          </figure>
         </section>
       </main>
 
