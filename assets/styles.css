@@ -246,6 +246,7 @@ p {
 .app-store-badge {
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .app-store-badge img {
