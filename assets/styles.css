@@ -146,6 +146,17 @@ a:hover {
   color: var(--ink);
 }
 
+.site-note {
+  margin-top: 2.4rem;
+  padding: 1rem 0 0.2rem;
+  border-top: 1px solid var(--line);
+}
+
+.site-note p {
+  max-width: 36rem;
+  font-size: 0.95rem;
+}
+
 main,
 .page-main {
   display: grid;
@@ -432,13 +443,11 @@ p {
 }
 
 .site-footer {
-  margin-top: 2.4rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--line);
+  margin-top: 0.15rem;
+  padding-top: 0.9rem;
 }
 
 .site-footer p {
-  max-width: 36rem;
   font-size: 0.95rem;
 }
 
