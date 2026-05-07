@@ -141,8 +141,9 @@ h3 {
 }
 
 h1 {
-  max-width: 9ch;
+  max-width: 14ch;
   font-size: clamp(2.8rem, 13vw, 5rem);
+  text-wrap: balance;
 }
 
 h2 {
@@ -172,6 +173,17 @@ p {
   flex-wrap: wrap;
   gap: 0.8rem;
   padding-top: 0.35rem;
+}
+
+.app-store-badge {
+  display: inline-flex;
+  align-items: center;
+}
+
+.app-store-badge img {
+  display: block;
+  width: min(100%, 180px);
+  height: auto;
 }
 
 .button {
@@ -227,6 +239,10 @@ p {
 .story-block {
   display: grid;
   gap: 1.35rem;
+}
+
+.hero h1 {
+  max-width: 9ch;
 }
 
 .hero-copy,
@@ -379,6 +395,10 @@ p {
     align-items: center;
   }
 
+  .app-store-badge img {
+    width: 190px;
+  }
+
   .button {
     min-width: 150px;
   }
@@ -445,6 +465,11 @@ p {
 
   .button {
     width: 100%;
+  }
+
+  .app-store-badge img {
+    width: 180px;
+    max-width: 100%;
   }
 
   .text-link {
